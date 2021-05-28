@@ -1,0 +1,142 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.container{
+    height:100vh;
+    width: 100%;
+    background-color: #490665;
+}
+
+.navbar{
+    width: 100%;
+    margin: auto;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    position: fixed;
+    top: 0;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color:  #e514a3;
+    font-size: 15px;
+    font-family: 'Archivo', sans-serif;
+    font-weight: 500;
+}
+
+.vl{
+    border-left: 2px solid white;
+    height: 15px;
+}
+
+#main-footer{
+    background-color: black;
+    color: #e514a3;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Archivo', sans-serif;
+    font-weight: 500;
+    padding: 10px;
+}
+
+ .main-text{
+    font-family: 'Archivo', sans-serif;
+    font-weight: 500px;
+    font-size: 130px;
+    text-align: center;
+    color: #e514a3;
+    padding-top: 250px;
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+}
+
+.body-text{
+    font-family: 'Archivo', sans-serif;
+    font-weight: 500px;
+    color: #e514a3;
+    text-align: center;
+    font-size: 30px;
+}
+
+.icons{
+    text-align: center;
+    font-family: 'Archivo', sans-serif;
+    font-weight: 500px;
+    color: #e514a3;
+    margin-top:145px;
+    align-items: center;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 10px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .fa-facebook {
+    background: #e514a3;
+    color: #490665;
+  }
+
+  .fa-facebook:hover{
+      opacity: 0.7;
+  }
+
+
+  .fa-twitter {
+    background: #e514a3;
+    color: #490665;
+  }
+
+  .fa-twitter:hover{
+    opacity: 0.7;
+}
+
+  .fa-instagram {
+    background: #e514a3;
+    color: #490665;
+  }
+
+  .fa-instagram:hover{
+    opacity: 0.7;
+}
+
+.main-body{
+    background-image: url('images/bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.logo > img{
+    width: 100%;
+    height: 100%;
+    max-width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 20px;
+}
+
